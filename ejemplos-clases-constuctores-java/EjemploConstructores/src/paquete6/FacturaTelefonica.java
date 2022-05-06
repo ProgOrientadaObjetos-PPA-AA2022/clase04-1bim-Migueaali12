@@ -18,6 +18,12 @@ public class FacturaTelefonica {
         valorMinuto = 0.15;
 
     }
+    
+    public FacturaTelefonica(String numTel) {
+
+        numeroTelefono = numTel;    
+
+    }
 
     public FacturaTelefonica(String numTel, double mMes,
             double vMinuto) {
